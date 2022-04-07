@@ -1,119 +1,195 @@
- body {
-   width: 80%;
-   padding: 20px;
-   margin: 20px 10% 100% 10%;
-   background: #e0e0e0;
-   font-family: 'Rubik', sans-serif;
-   box-sizing: border-box;
-   border-radius: 9px;
-   border: 2px solid #a8a8a8;
-   box-shadow: 10px 10px 10px blue,
-     -10px -10px -10px blue;
- }
+body {
+  width: 80%;
+  height: auto;
+  padding: 20px;
+  margin: 20px 10% 100% 10%;
+  background: #e0e0e0;
+  font-family: 'Rubik', sans-serif;
+  border-radius: 9px;
+  border: 2px solid #e0e0e0;
+  box-shadow: 8px 8px 17px #afafaf,
+    -8px -8px 17px #fff;
+  ;
+}
 
- .hrdown {
-   margin-top: 40px;
- }
+.hrdown {
+  margin-top: 40px;
+}
 
- hr {
-   background-color: #e0e0e0;
-   width: 25%;
-   margin: auto;
-   text-align: center;
-   border-style: none;
-   border-top-style: dotted;
-   border-width: 6px;
-   border-color: #000;
- }
+hr {
+  background-color: #e0e0e0;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  border-color: #000;
+}
 
- /*   Name and designation  */
- #name {
-   line-height: 2;
-   color: #45B4E1;
- }
+/*   Name and designation  */
+#name {
+  line-height: 2;
+  color: #45B4E1;
+}
 
- #name::first-line {
-   color: #041C32;
- }
+#name::first-line {
+  color: #041C32;
+}
 
- #EDUCATION {
-   padding-top: 20px;
-   color: #041C32;
- }
+.EDUCATION {
+  margin: auto 200px 30px 32px;
+  padding-top: 20px;
+  color: #041C32;
+}
 
- /*   h1 - h6 tags  */
- h1 {
-   color: #35858B;
- }
+div .COURSES {
+  margin: auto 200px auto 32px;
+}
 
- h2 {
-   color: #041C32;
- }
+/*   h1 - h6 tags  */
+h1 {
+  color: #35858B;
+}
 
- h3 {
-   color: #04293A;
- }
+h2 {
+  color: #041C32;
+}
 
- h4 {
-   color: #160040;
- }
+h3 {
+  color: #04293A;
+}
 
- /* div id */
- #profile {
-   align-items: center;
-   text-align: center;
-   justify-content: center;
-   margin: 30px;
- }
+h4 {
+  color: #160040;
+}
 
- #MASOOM {
-   width: 250px;
- }
+/* div id */
+#profile {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 30px;
+}
 
- /*   Profile images  */
- div p a {
-   text-decoration: none;
- }
+#MASOOM {
+  width: 250px;
+}
 
- div .profileimg {
-   width: 30px;
-   padding-left: 10px;
- }
+/*   Profile images  */
+#contact P {
+  margin-top: 30px;
+  text-align: center;
+}
 
- /*   section   */
- .summary {
-   margin-top: 90px;
-   text-align: center;
-   line-height: 2;
-   text-align: left;
- }
+#contact P a {
+  align-items: center;
+  text-decoration: none;
+}
 
- .Educational {
-   margin-top: 90px;
-   text-align: center;
-   line-height: 2;
-   text-align: left;
- }
+#contact P .profileimg {
+  width: 30px;
+  height: 20px;
+  padding-left: 10px;
+}
 
- .summary p {
-   margin: auto 200px auto 32px;
-   line-height: 2;
- }
+/*   section   */
+.summary {
+  margin-top: 90px;
+  text-align: center;
+  line-height: 2;
+  text-align: left;
+}
 
- .Educational P {
-   margin: auto 200px auto 32px;
-   line-height: 2;
- }
+.Educational {
+  margin-top: 90px;
+  line-height: 2;
+  text-align: left;
+}
 
- @media screen and (max-width:390px) {
-   .Educational P {
-     margin : auto;
-   }
+.summary p {
+  margin: auto 200px auto 32px;
+  line-height: 2;
+}
 
-   .summary P {
-     margin : auto;
-   }
-   #MASOOM {
-     width: 170px;
-   }
- }
+.Educational P {
+  margin: auto 200px auto 32px;
+  line-height: 2;
+}
+
+/*   Navbar    */
+#navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #45B4E1;
+}
+
+.navbar-brand {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+#navbar-nav {
+  padding-right: 90px;
+}
+
+#nav-link {
+  margin-left: 30px;
+}
+
+.bg-dark {
+  background-color: #e0e0e0;
+}
+
+/* footer   */
+#contactMe .EDUCATION {
+  text-align: left;
+}
+
+#contactMe p {
+  padding-left: 40px;
+  text-decoration: none;
+}
+
+#contactMe .owner {
+  font-weight: bold;
+  text-align: center;
+}
+
+#contactMe p img {
+  padding-bottom: 4px;
+  width: 20px;
+}
+
+#contactMe p a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+@media screen and (max-width:900px) {
+  .Educational P {
+    margin: auto;
+  }
+
+  .summary P {
+    margin: auto;
+  }
+
+  #MASOOM {
+    width: 150px;
+  }
+
+  .hrdown {
+    background-color: #fff;
+  }
+
+  body {
+    width: 95%; 
+    margin: auto;
+  }
+
+  .EDUCATION {
+    margin: auto;
+  }
+}
